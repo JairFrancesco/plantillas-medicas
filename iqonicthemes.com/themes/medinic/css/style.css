@@ -1,0 +1,258 @@
+/*
+Medinic - Medical, Health, Pharmacy HTML Template
+Author: iqonicthemes.in
+Version: 1.0
+Design and Developed by: iqonicthemes.in
+*/
+/*================================================
+[  Table of contents  ]
+================================================
+:: Google Fonts
+:: General
+:: Loader
+:: Back to Top
+:: No Gutters
+:: Inputs
+:: Jarallax
+:: Services
+:: About
+:: Appointment
+:: Faq
+:: Loging and Register
+:: Revolution Slider css
+======================================
+[ End table content ]
+======================================*/
+/*---------------------------------------------------------------------
+Google Fonts
+-----------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+/*---------------------------------------------------------------------
+General
+-----------------------------------------------------------------------*/
+body { font-family: 'Montserrat', sans-serif; font-weight: normal; font-style: normal; font-size: 14px; line-height: 24px; color: #666666; }
+a, input { -webkit-transition: all 0.5s ease-out 0s; -moz-transition: all 0.5s ease-out 0s; -ms-transition: all 0.5s ease-out 0s; -o-transition: all 0.5s ease-out 0s; transition: all 0.5s ease-out 0s; color: #222222; outline: none !important; }
+a:focus { text-decoration: none !important; }
+a:focus, a:hover { color: #0bc9e3; text-decoration: none !important; }
+.button { -webkit-transition: all 0.5s ease-out 0s; -moz-transition: all 0.5s ease-out 0s; -ms-transition: all 0.5s ease-out 0s; -o-transition: all 0.5s ease-out 0s; transition: all 0.5s ease-out 0s; color: #ffffff; outline: none !important; }
+h1, h2, h3, h4, h5, h6 { font-family: 'Poppins', sans-serif; font-size: 100%; font-weight: normal; color: #222222; margin-top: 0px; margin-bottom: 0px; }
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: inherit; }
+h1 { font-size: 40px; line-height: 55px; }
+h2 { font-size: 36px; line-height: 40px; }
+h3 { font-size: 32px; line-height: 45px; }
+h4 { font-size: 28px; line-height: 40px; }
+h5 { font-size: 24px; line-height: 35px; }
+h6 { font-size: 20px; line-height: 26px; }
+hr { margin: 0; padding: 0px; border-bottom: 1px solid #e9e9e9; border-top: 0px; }
+ol, ul { padding: 0px; margin: 0px; }
+li { list-style: none !important; }
+label { font-weight: 400; color: #aaaaaa; }
+.label { color: #fff !important; font-size: 9px !important; }
+*::-moz-selection { background: #0bc9e3; color: #fff; text-shadow: none; }
+::-moz-selection { background: #0bc9e3; color: #fff; text-shadow: none; }
+::selection { background: #0bc9e3; color: #fff; text-shadow: none; }
+.iq-hide { overflow: hidden; }
+.wd-full { width: 100% !important; }
+iframe { border: inherit; }
+.full-img { width: 100% !important; }
+/*---------------------------------------------------------------------
+Loader
+-----------------------------------------------------------------------*/
+#loading { background-color: #ffffff; height: 100%; width: 100%; position: fixed; margin-top: 0px; top: 0px; left: 0px; bottom: 0px; overflow: hidden !important; right: 0px; z-index: 999999; }
+#loading-center { width: 100%; height: 100%; position: relative; overflow: hidden; }
+#loading-center img { width: 100px; text-align: center; left: 0; position: absolute; right: 0; top: 50%; bottom: 50%; z-index: 99; margin: auto; -webkit-animation: spin 4s linear infinite; -moz-animation: spin 4s linear infinite; animation: spin 4s linear infinite; }
+/*---------------------------------------------------------------------
+Back to Top
+-----------------------------------------------------------------------*/
+#back-to-top .top { z-index: 999; position: fixed; margin: 0px; color: #ffffff; background: #333333; position: fixed; bottom: 25px; right: 25px; z-index: 999; font-size: 26px; width: 50px; height: 50px; text-align: center; line-height: 50px; -webkit-border-radius: 90px; -moz-border-radius: 90px; border-radius: 90px; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; transition: all .3s ease-in-out; }
+#back-to-top .top:hover { background: #0bc9e3; color: #ffffff; -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); }
+/*---------------------------------------------------------------------
+No Gutters
+-----------------------------------------------------------------------*/
+.no-gutters { margin-right: 0; margin-left: 0;
+> .col, > [class*="col-"] { padding-right: 0; padding-left: 0; }
+}
+/*---------------------------------------------------------------------
+Input
+-----------------------------------------------------------------------*/
+input { background: transparent; border: 1px solid #d2d2d2; color: #666; height: 45px; box-shadow: none; padding-left: 10px; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; font-size: 14px; color: #626262; width: 100%; }
+select { width: 100%; background: transparent; border: 1px solid #e0e0e0; color: #666666; height: 45px; padding-left: 10px; box-shadow: none; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; font-size: 14px; color: #626262; }
+option { background: #fff; border: 0px solid #626262; padding-left: 10px; font-size: 14px; }
+input:focus { background: transparent; border: 1px solid #0bc9e3; }
+textarea { background: transparent; resize: vertical; border: 1px solid #e0e0e0; color: #666666 !important; padding: 10px; width: 100%; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; font-size: 14px; }
+textarea:focus { background: transparent; border: 1px solid #0bc9e3; outline: none !important; }
+.form-control { background-color: transparent; border: 1px solid #2f2f2f; -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0; color: #fff; box-shadow: none; }
+.form-control:focus { box-shadow: none; border-color: #2f2f2f; }
+input::-webkit-input-placeholder { color: #666; }
+input::-moz-placeholder { color: #666; }
+input:-moz-placeholder { color: #666; }
+input:-ms-input-placeholder { color: #666; }
+input:focus { outline: none;}
+/*---------------------------------------------------------------------
+Jarallax
+---------------------------------------------------------------------*/
+.jarallax { position: relative; z-index: 0; }
+.jarallax>.jarallax-img { position: absolute; object-fit: cover;    /* support for plugin https://github.com/bfred-it/object-fit-images */ font-family: 'object-fit:cover; '; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; }
+/****************************************************************************
+Home 1
+*****************************************************************************/
+/*---------------------------------------------------------------------
+Services
+----------------------------------------------------------------------*/
+.iq-box { padding: 0; margin-top: 30px; }
+.iq-box p { margin-top: 0; margin-bottom: 0; }
+.iq-box img { width: 65px; }
+.iq-box h5 { color: #333333; margin: 10px 0; font-weight: 600; }
+/*---------------------------------------------------------------------
+about hospital  
+----------------------------------------------------------------------*/
+.iq-tools-box .iq-tools2 img { margin-top: -170px; }
+.iq-tools-box .iq-tools2 { position: absolute; bottom: 0px; width:650px; right: 0; }
+.iq-aboutus h1 { color: #000000; font-weight: 600; }
+.iq-aboutus span { font-size: 28px; color: #fff; font-weight: 600; }
+.iq-aboutus p { margin: 20px 0; color: #ffffff; }
+.iq-aboutus p.dark-text { font-size: 20px; line-height: 30px; font-weight: 600; }
+.iq-aboutus .mark-box { padding-bottom: 20px; }
+.iq-aboutus .mark-box li i { font-size: 20px; color: #fff; padding-right: 10px; }
+.iq-aboutus .mark-box li { color: #fff; line-height: 30px }
+/*---------------------------------------------------------------------
+hospital-department
+----------------------------------------------------------------------*/
+.hospital-aria {position: relative; margin-top: 30px; background: #ffffff; }
+.hospital-aria .hospital-content { padding: 20px; background: #f9f9f9; }
+.hospital-aria .icon-box { background: #ea601e; position: absolute; top: 20px; left: 20px; height: 70px; width: 70px; line-height: 56px; text-align: center; border: 6px solid #fff; transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; }
+.hospital-aria:hover .icon-box { border-radius: 100%; }
+.hospital-aria .icon-box img { width: 40px; text-align: center; }
+/****************************************************************************
+Home 2
+*****************************************************************************/
+/*---------------------------------------------------------------------
+about hospital  
+----------------------------------------------------------------------*/
+.iq-aboutus2 h6 { font-weight: 600; }
+.iq-aboutus2 .iq-feature2 h3 i { padding-right: 15px; color: #ea601e; }
+.iq-aboutus2 p { margin: 10px 0 0; color: #333; }
+.iq-aboutus2 .button { margin-bottom: 40px; }
+.iq-feature2.time-table { margin-top: 25px; border: 2px solid #ddd; padding: 25px 30px 15px 30px; border-radius: 5px; margin-bottom: 5px; }
+.iq-feature2.time-table .time-box { padding-top: 20px; }
+.iq-feature2.time-table .time-box li { border-bottom: 1px solid rgba(165, 165, 165, 0.2); padding: 7px 0; height: 50px; }
+.iq-feature2.time-table .time-box li:last-child { border-bottom: inherit; }
+.iq-feature2.time-table .time-box span { color: #333; }
+.iq-tools-box .iq-tools3 { position: absolute; bottom: 0px; width: 785px; right: 0; }
+/*doctor-detail*/
+.iq-feature2 .content-blog.orange i { padding-right: 15px; color: #ea601e; }
+.iq-feature2.time-table.spe-box { margin-top: 0; border-radius: inherit; border: 1px solid #ddd; }
+/*---------------------------------------------------------------------
+service2
+----------------------------------------------------------------------*/
+.service-box { padding: 60px 40px; }
+.service-box img { width: 60px; }
+.iq-service2 { margin-top: 30px; }
+.iq-service2 .left { width: 76px; height: 76px; float: left; margin-right: 20px; text-align: center; }
+.iq-service2 .right { display: table-cell; margin-top: 10px; vertical-align: top; }
+.iq-service2 .right p { margin-top: 0px; margin-bottom: 0; }
+.right-side .iq-service2 .left { float: right; margin-left: 20px; margin-right: 0; }
+.right-side .iq-service2 .right { text-align: right; }
+/****************************************************************************
+About Us
+*****************************************************************************/
+.doctor-content.grey { background: #f6f6f6; }
+.iq-aboutus p.black-text { font-size: 20px; line-height: 30px; font-weight: 600; color: #222222; margin: 0; }
+.iq-aboutus p.black, .iq-aboutus .mark-box.black li { color: #666666; }
+.iq-aboutus .mark-box.black li i { color: #0bc9e3; }
+/****************************************************************************
+About Us 2
+*****************************************************************************/
+.listing-awesome i { padding-right: 15px; color: #0bc9e3; }
+.center-img  img { width: 720px; }
+/****************************************************************************
+introduction
+*****************************************************************************/
+.intro-text { font-size: 24px; color: #222222; padding: 0px 70px 30px 70px; line-height: 34px; font-style: italic; }
+.intro-text i { font-size: 30px; color: #ea601e; padding: 0 15px; }
+/****************************************************************************
+Find Doctor
+*****************************************************************************/
+.iq-find-doc { background: #f2f2f2; padding: 40px 30px; }
+.iq-find-doc h4 { text-align: center; padding-bottom: 10px; font-size: 36px; font-weight: 600; color: #222222;}
+.iq-find-doc .form-control { color: #5f5f5f; background-color: #fff; border: none; }
+.iq-find-doc .button { width: 100%; text-align: center; }
+.iq-find-doc    select.form-control:not([size]):not([multiple]) { height: 50px; margin: 25px 0; }
+/****************************************************************************
+Find Doctor
+*****************************************************************************/
+.iq-facilities { padding: 20px 0px 10px; text-align: center; }
+.iq-facilities h4, .iq-facilities p { color: #ffffff; }
+.iq-facilities h4 { padding: 15px 0; font-size: 22px; line-height: 35px; }
+.iq-quickcontact p { font-size: 16px; padding-top: 5px; }
+/****************************************************************************
+Appointment
+*****************************************************************************/
+/*---------------------------------------------------------------------
+Appointment
+-----------------------------------------------------------------------*/
+.iq-appointment2 input[type="radio"], .iq-appointment2 input[type="checkbox"] { margin: 0; height: inherit; height: 20px; left: 0; }
+.iq-appointment2 .table-style .today { background: #2A3F54; color: #ffffff; }
+.iq-appointment2 .table-style th:nth-of-type(7), .iq-appointment2 .table-style td:nth-of-type(7) { color: blue; }
+.iq-appointment2 .table-style th:nth-of-type(1), .iq-appointment2 .table-style td:nth-of-type(1) { color: red; }
+.iq-appointment2 .table-style tr:first-child th { background-color: #F6F6F6; text-align: center; font-size: 15px; }
+.iq-appointment2 .radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] { margin-left: 60%; }
+.iq-appointment2 .well { background-color: inherit; border: none; box-shadow: inherit; padding: 0px 15px; margin-bottom: 0px; }
+.iq-appointment2 form { border: 1px solid #dddddd; padding: 30px; }
+.iq-appointment2 .iq-radio input, .iq-appointment2 .iq-check input { width: inherit; }
+.iq-appointment2 .iq-check .form-check-input { width: 16px; margin-right: 6px; }
+.iq-appointment2 .form-control { background: #f6f6f6; border: 1px solid #f2f2f2; }
+.iq-appointment2 .form-control:focus, .iq-appointment2 .section-field.textarea textarea:focus { box-shadow: none; outline: none; border: 1px solid #0bc9e3; }
+.iq-appointment2 label { font-size: 16px; color: #222222; }
+.iq-appointment2 .form-check { display: inline-block; padding-right: 30px; }
+.iq-tools-appo { position: absolute; top: 0; width: 600px; left: 0; }
+.iq-appointment2 .button {background: #ea601e; color: #ffffff; outline: none !important; border: none !important;}
+.iq-appointment2 .button:hover{background: #222222; color: #ffffff;}
+
+
+/*---------------------------------------------------------------------
+faq
+-----------------------------------------------------------------------*/
+.faq-2 { padding: 20px 15px; }
+/*----------------------------------------------------------------------
+Loging and Register
+-----------------------------------------------------------------------*/
+.iq-log-reg { padding: 40px 30px; width: 100%; position: relative; top: -100px; border: 1px solid #dcdcdc;}
+.iq-log-reg.no-top { top: 0; }
+.iq-log-reg .form-control { background: #f1f1f1; border: none; height: 45px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; color: #666666; box-shadow:inherit !important;}
+.iq-log-reg textarea { min-height: 100px; }
+.iq-log-reg .remember-checkbox a { color: #1e50e2; }
+.iq-log-reg .remember-checkbox label { padding-left: 30px; font-size: 14px; position: relative; cursor: pointer; color: #0bc9e3; }
+.iq-log-reg .remember-checkbox label:before, label:after { position: absolute; top: -3px; left: 0; padding-left: 2px; font-family: FontAwesome; font-size: 17px; }
+.iq-log-reg .remember-checkbox label:before { border: 2px solid #0bc9e3; content: ""; height: 20px; margin-top: 3px; width: 20px; }
+.iq-log-reg .remember-checkbox label:after { content: '\f00c'; max-width: 0; opacity: 0.5; overflow: hidden; transition: all 0.35s; -webkit-transition: all 0.35s; -ms-transition: all 0.35s; -ms-transition: all 0.35s; -o-transition: all 0.35s; }
+.iq-log-reg .remember-checkbox input[type="checkbox"] { display: none; }
+.iq-log-reg .remember-checkbox input[type="checkbox"]:checked+label:after { max-width: 25px; opacity: 1; }
+.iq-log-reg p { font-size: 13px; line-height: 20px; color: #ffffff;}
+.iq-log-reg .button { width: 100%; text-align: center; color: #ffffff; margin-bottom: 15px;}
+.iq-log-reg .title{font-weight: 600; margin-bottom: 20px;}
+.iq-log-reg .log-reg-footer {margin-top: 15px;}
+.iq-log-reg .log-reg-footer a{color: #222222; font-size: 14px;}
+.iq-log-reg .log-reg-footer a:hover{color: #0bc9e3;}
+.iq-log-reg .log-reg-footer a.iq-link{ background: rgb(241, 241, 241); padding: 5px 10px; color: #222222; font-weight: 600;}
+.iq-log-reg .log-reg-footer a:hover.iq-link{ background:#222222;  color: #ffffff;}
+/*----------------------------------------------------------------------
+revolution slider css
+-----------------------------------------------------------------------*/
+/***************
+Slider home 1
+****************/
+.persephone.tparrows { cursor: pointer; background: rgba(201, 201, 201, 0.75); width: 40px; height: 40px; position: absolute; display: block; z-index: 100; border: 1px solid rgba(255, 255, 255, 1) }
+.persephone.tparrows:hover { background: rgba(0, 0, 0, 1) }
+.persephone.tparrows:before { font-family: "revicons"; font-size: 15px; color: rgb(255, 255, 255); display: block; line-height: 40px; text-align: center }
+.persephone.tparrows.tp-leftarrow:before { content: "\e824" }
+.persephone.tparrows.tp-rightarrow:before { content: "\e825" }
+/***************
+Slider home 2
+****************/
+.custom.tparrows { cursor: pointer; background: #000; background: rgba(0, 0, 0, 0.5); width: 40px; height: 40px; position: absolute; display: block; z-index: 100 }
+.custom.tparrows:hover { background: #000 }
+.custom.tparrows:before { font-family: "revicons"; font-size: 15px; color: #fff; display: block; line-height: 40px; text-align: center }
+.custom.tparrows.tp-leftarrow:before { content: "\e824" }
+.custom.tparrows.tp-rightarrow:before { content: "\e825" }

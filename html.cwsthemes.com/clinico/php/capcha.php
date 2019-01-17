@@ -1,0 +1,1 @@
+<img class="capture_image" border="0" alt="" style="vertical-align: top;"  src="http://html.cwsthemes.com/clinico/php/image.php">

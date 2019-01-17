@@ -1,0 +1,77 @@
+.slider-box,
+.slider-content h4,
+.slider-content h2,
+.slider-content p,
+.slider-content a,
+.slider-left-img,
+.s-two-content span,
+.s-two-content h2,
+.s-two-content p,
+.s-two-content a,
+.gallery-item .hover-info h2,
+.gallery-item .hover-info p {
+    opacity: 0;
+}
+
+
+.gallery-item:hover .hover-info h2 {
+    -webkit-animation: fadeinup 500ms ease-in-out 0s forwards;
+    -o-animation: fadeinup 500ms ease-in-out 0s forwards;
+    animation: fadeinup 500ms ease-in-out 0s forwards;
+}
+.swiper-slide-active .slider-box,
+.swiper-slide-active .s-two-content span,
+.gallery-item:hover .hover-info p {
+    -webkit-animation: fadeinup 500ms ease-in-out 0.2s forwards;
+    -o-animation: fadeinup 500ms ease-in-out 0.2s forwards;
+    animation: fadeinup 500ms ease-in-out 0.2s forwards;
+}
+
+.swiper-slide-active .slider-content h4,
+.swiper-slide-active .s-two-content h2 {
+    -webkit-animation: fadeinup 600ms ease-in-out 0.4s forwards;
+    -o-animation: fadeinup 600ms ease-in-out 0.4s forwards;
+    animation: fadeinup 600ms ease-in-out 0.4s forwards;
+}
+
+.swiper-slide-active .slider-content h2,
+.swiper-slide-active .s-two-content p,
+.swiper-slide-active .slider-left-img {
+
+    -webkit-animation: fadeinup 700ms ease-in-out 0.6s forwards;
+    -o-animation: fadeinup 700ms ease-in-out 0.6s forwards;
+    animation: fadeinup 700ms ease-in-out 0.6s forwards;
+}
+
+.swiper-slide-active .slider-content p,
+.swiper-slide-active .s-two-content a {
+    -webkit-animation: fadeinup 700ms ease-in-out 1s forwards;
+    -o-animation: fadeinup 700ms ease-in-out 1s forwards;
+    animation: fadeinup 700ms ease-in-out 1s forwards;
+}
+
+.swiper-slide-active .slider-content a {
+    -webkit-animation: fadeinup 700ms ease-in-out 1.4s forwards;
+    -o-animation: fadeinup 700ms ease-in-out 1.4s forwards;
+    animation: fadeinup 700ms ease-in-out 1.4s forwards;
+}
+
+
+/*fade in animation*/
+
+@keyframes fadeinup {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+        -o-transform: translateY(20px);
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        -o-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+}

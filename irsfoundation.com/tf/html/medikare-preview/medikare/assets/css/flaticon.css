@@ -1,0 +1,67 @@
+  /*
+    Flaticon icon font: Flaticon
+    Creation date: 29/01/2018 09:46
+    */
+
+  @font-face {
+      font-family: "Flaticon";
+      src: url("../fonts/Flaticon.eot");
+      src: url("../fonts/Flaticon.eot?") format("embedded-opentype"),
+      url("../fonts/Flaticon.woff") format("woff"),
+      url("../fonts/Flaticon.ttf") format("truetype"),
+      url("../fonts/Flaticon.svg") format("svg");
+      font-weight: normal;
+      font-style: normal;
+  }
+
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+      @font-face {
+          font-family: "Flaticon";
+          src: url("http://irsfoundation.com/tf/html/medikare-preview/medikare/assets/css/Flaticon.svg") format("svg");
+      }
+  }
+
+  [class^="flaticon-"]:before,
+  [class*=" flaticon-"]:before,
+  [class^="flaticon-"]:after,
+  [class*=" flaticon-"]:after {
+      font-family: Flaticon;
+      font-size: 20px;
+      font-style: normal;
+  }
+
+  .flaticon-kidneys:before {
+      content: "\f100";
+  }
+
+  .flaticon-ambulance:before {
+      content: "\f101";
+  }
+
+  .flaticon-human-ear:before {
+      content: "\f102";
+  }
+
+  .flaticon-plaster:before {
+      content: "\f103";
+  }
+
+  .flaticon-dna:before {
+      content: "\f104";
+  }
+
+  .flaticon-kidney:before {
+      content: "\f105";
+  }
+
+  .flaticon-first-aid-kit:before {
+      content: "\f106";
+  }
+
+  .flaticon-syringe:before {
+      content: "\f107";
+  }
+
+  .flaticon-tooth:before {
+      content: "\f108";
+  }

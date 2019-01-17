@@ -1,0 +1,1330 @@
+/* (1366x768) WXGA Display */
+
+@media screen and (min-width: 1366px) and (max-width: 1920px) {
+    .why-bg-img{
+        display: block;
+    }
+}
+
+
+
+
+/* Normal desktop :1024px. */
+
+@media (min-width: 992px) and (max-width: 1197px) {
+    /*---------------------------
+        home one
+    ---------------------------*/
+    .header-middle>div>div {
+        flex-wrap: wrap-reverse;
+    }
+    .ht-address ul {
+        text-align: center;
+    }
+    .ht-address ul li {
+        margin-left: 30px;
+        letter-spacing: 0.01em;
+    }
+    .slider-btn {
+        display: none;
+    }
+    .appoinment-form {
+        padding: 32px 15px 40px;
+    }
+    .our-location {
+        right: 10%;
+    }
+
+    /*---------------------------
+        home Two
+    ---------------------------*/
+    .main-menu nav ul li a {
+        padding: 23px 15px;
+    }
+    .header-style-two {
+        height: 71px;
+    }
+    .header-style-two .main-menu nav .submenu {
+        top: 69px;
+    }
+    .ht-two .ht-address {
+        width: 50%;
+    }
+    .ht-two .ht-address ul{
+        text-align: left;
+    }
+    .ht-social ul li a{
+        border: none;
+    }
+    .ht-two{
+        padding-bottom: 20px;
+    }
+    .why-choose-three {
+        padding-top: 100px;
+    }
+    .video-content h2 {
+        font-size: 39px;
+    }
+
+    /*---------------------------
+        About Us
+    ---------------------------*/
+    .phisician-thumbnail{
+        margin-top: 40px;
+    }
+    .medikare-dental-num{
+        padding: 100px 0px;
+    }
+
+    /*---------------------------
+        About Us Two
+    ---------------------------*/
+    .abt-two-content{
+        padding: 100px 0px;
+    }
+    .subscribe-area{
+        padding: 90px 0px 100px;
+    }
+
+    /*---------------------------
+        404
+    ---------------------------*/
+    .error-content h4{
+        margin-top: -120px;
+    }
+
+
+}
+
+
+
+
+/* Normal desktop :991px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /*---------------------------
+        home one
+    ---------------------------*/
+    .header-middle>div>div {
+        flex-wrap: wrap-reverse;
+    }
+    .ht-address ul {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .ht-address ul li {
+        margin: 0px 30px;
+        letter-spacing: 0.01em;
+    }
+    .slider-btn {
+        height: 60px;
+        width: 60px;
+        line-height: 60px;
+    }
+    .appoinment-form {
+        margin-top: 60px;
+    }
+    .feature-area,
+    .testimonial-area,
+    .department-area {
+        padding: 90px 0px;
+    }
+    .about-area {
+        padding-bottom: 90px;
+    }
+    .service-area {
+        padding: 90px 0px 60px;
+    }
+    .doctor-area {
+        padding-top: 90px;
+    }
+    .callto-action h2 {
+        font-size: 26px;
+    }
+    .callto-action {
+        padding: 80px 0px;
+    }
+    .feature-blog {
+        padding: 90px 0px 60px;
+    }
+    .single-blog {
+        margin-bottom: 30px;
+    }
+    .our-location {
+        right: 8%;
+    }
+    .footer-top {
+        padding: 90px 0px;
+    }
+
+    /*---------------------------
+        home Two
+    ---------------------------*/
+    .header-bottom.sticky-header,
+    .header-style-two {
+        height: 94px;
+        top: auto;
+        bottom: 0!important;
+        position: relative;
+        -webkit-transition: all 0s;
+        -o-transition: all 0s;
+        transition: all 0s;
+    }
+    .header-style-two:before {
+        display: none;
+    }
+    .header-style-two .logo a {
+        padding: 24px 0px 23px;
+    }
+    .slider-left-img {
+        display: none;
+    }
+    .about-two,
+    .why-choose {
+        padding: 90px 0px;
+    }
+    .ht-two{
+        padding-bottom: 20px;
+    }
+    .ht-two .ht-social ul li a{
+        border: none;
+    }
+    .about-two .about-content{
+        margin-bottom: 40px;
+    }
+    .dp-left-thumb{
+        height: 300px;
+    }
+    .department-menu ul li a span{
+        font-size: 15px;
+    }
+    .department-two{
+        padding: 90px 0px 60px;
+    }
+    .why-choose .appoinment-form{
+        margin-top: 0;
+    }
+    .whyc-content-right{
+        margin-top: 60px;
+    }
+    .gallery-area{
+        padding: 90px 0px;
+    }
+
+    /*---------------------------
+        home Three
+    ---------------------------*/
+    .hbox-inner .logo a {
+        padding: 23px 15px;
+    }
+    .header-box-style .slicknav_btn {
+        top: -66px;
+    }
+    .about-two .about-content {
+        margin-top: 40px;
+    }
+    .about-two{
+        padding-bottom: 45px;
+    }
+    .video-content h2 {
+        font-size: 37px;
+    }
+    .gallery-two{
+        padding: 0;
+    }
+    .gallery-item .hover-info h2 {
+        font-size: 17px;
+    }
+
+    /*---------------------------
+        About Us
+    ---------------------------*/
+    .banner-content h2 {
+        font-size: 35px;
+    }
+    .phisician-content {
+        padding-top: 90px;
+    }
+    .phisician-area{
+        padding-bottom: 90px;
+    }
+    .medikare-dental-num{
+        padding: 100px 0px;
+    }
+    .phisician-thumbnail{
+        margin-top: 0;
+    }
+
+    /*---------------------------
+        About Us Two
+    ---------------------------*/
+    .abt-two-content{
+        padding: 90px 0px; 
+    }
+    .about-us-two{
+        background-color: #2a2b2c;
+    }
+    .abt-two-content:before{
+        display: none;
+    }
+    .abt-two-content{
+        background-color: transparent;
+    }
+
+    /*---------------------------
+        Faq
+    ---------------------------*/
+    .faq-area,
+    .euestion-action {
+        padding: 90px 0px;
+    }
+    .subscribe-area{
+        padding: 70px 0px 90px;
+    }
+    .accordion-area .card-header h5 button:before,
+    .accordion-area .card-header h5 button:after{
+        display: none;
+    }
+    .accordion-area h2 {
+        font-size: 25px;
+        margin-bottom: 27px;
+    }
+
+
+    /*---------------------------
+        Service
+    ---------------------------*/
+    .service-page-area{
+        padding: 90px 0px 60px;
+    }
+
+    /*---------------------------
+        Service Details
+    ---------------------------*/
+    .service-details-area {
+        padding-top: 90px;
+    }
+    .related-post{
+        padding-bottom: 60px;
+    }
+
+    /*---------------------------
+        Doctors
+    ---------------------------*/
+    .all-doctors {
+        padding: 90px 0px 60px;
+    }
+
+    /*---------------------------
+        Appoinment
+    ---------------------------*/
+    .appoinment-area{
+        padding: 90px 0px;
+    }
+    .appoinment-area .appoinment-form{
+        margin-top: 0;
+        padding: 32px 20px 0px;
+    }
+
+    /*---------------------------
+        Department
+    ---------------------------*/
+    .department-details {
+        padding: 90px 0px;
+    }
+    .dpt-details-left{
+        padding: 0;
+    }
+    .dpts-list {
+        flex-basis: 100%;
+        margin-bottom: 40px;
+    }
+    .dpt-list-title h2{
+        margin-right: 0;
+    }
+    .related-doctor .section-title h2 {
+        font-size: 22px;
+    }
+    .related-doctor .section-title h3 {
+        font-size: 20px;
+    }
+    .dpts-list:last-child{
+        margin-bottom: 0;
+    }
+    .related-doctor {
+        padding: 50px 0px 0;
+    }
+    .department-details .appoinment-form{
+        padding: 32px 20px 0px;
+    }
+    .widget-sidebar {
+        margin-top: 90px;
+    }
+
+    /*---------------------------
+        Blog
+    ---------------------------*/
+    .blog-area{
+        padding: 90px 0px;
+    }
+
+    /*---------------------------
+        404
+    ---------------------------*/
+    .page-error{
+        min-height: 100vh;
+        height: 700px;
+        padding-top: 200px;
+    }
+    .error-content h2{
+        font-size: 85px;
+    }
+    .error-content img{
+        margin-top: -140px;
+        margin-bottom: 40px;
+    }
+    .error-content h4{
+        font-size: 20px;
+        margin-top: -120px;
+    }
+
+}
+
+
+/* small mobile :320px. */
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%
+    }
+    /*---------------------------
+        home one
+    ---------------------------*/
+    .logo {
+        margin-right: 75px;
+    }
+
+    .slider-btn {
+        display: none;
+    }
+    .slider-box {
+        width: 100%;
+    }
+    .slider_active .swiper-slide {
+        height: auto;
+        padding: 70px 0px;
+    }
+    .slider-content h4 {
+        font-size: 14px;
+    }
+    .slider-content h2 {
+        font-size: 17px;
+        line-height: 27px;
+    }
+}
+
+
+/* Large Mobile :480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width: 450px;
+    }
+    /*---------------------------
+        home one
+    ---------------------------*/
+    .ht-social ul {
+        text-align: center;
+    }
+    .ht-social ul li {
+        float: none;
+        display: inline-block;
+    }
+    .ht-social ul li a {
+        border: none;
+    }
+    .header-top {
+        padding-bottom: 20px;
+    }
+    .ht-address ul {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .ht-address ul li {
+        margin: 0px 20px;
+        letter-spacing: 0.01em;
+    }
+    .header-middle>div>div {
+        flex-wrap: wrap-reverse;
+    }
+    .feature-area,
+    .testimonial-area,
+    .department-area,
+    .callto-action,
+    .footer-top {
+        padding: 80px 0px;
+    }
+    .section-title h2,
+    .section-title h3,
+    .about-title h2 {
+        font-size: 23px;
+    }
+    .appoinment-form {
+        margin-top: 50px;
+    }
+    .appoinment-form h2 {
+        font-size: 20px;
+    }
+    .about-area {
+        padding-bottom: 80px;
+    }
+    .service-area,
+    .doctor-area {
+        padding: 80px 0px 60px;
+    }
+    .single-doctor {
+        margin-bottom: 30px;
+    }
+    .callto-action h2 {
+        font-size: 18px;
+        text-align: center;
+    }
+    .callto-action .btn-style-one {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .feature-blog {
+        padding: 80px 0px 50px;
+    }
+    .single-blog {
+        margin-bottom: 30px;
+    }
+    .our-location {
+        right: 10%;
+    }
+    .footer-menu ul li a {
+        padding: 10px 30px;
+    }
+
+    /*---------------------------
+        home Two
+    ---------------------------*/
+    .header-bottom.sticky-header,
+    .header-style-two {
+        height: 94px;
+        top: auto;
+        bottom: 0!important;
+        position: relative;
+        -webkit-transition: all 0s;
+        -o-transition: all 0s;
+        transition: all 0s;
+    }
+    .header-style-two:before {
+        display: none;
+    }
+    .header-style-two .logo a {
+        padding: 24px 0px 23px;
+    }
+    .header-top-inner {
+        display: block;
+    }
+    .slider-left-img {
+        display: none;
+    }
+    .about-two,
+    .why-choose {
+        padding: 80px 0px;
+    }
+    .ht-two .ht-appointment{
+         text-align: center;
+        margin-top: 15px;
+    }
+    .about-b-img {
+        margin-top: 60px;
+        height: 200px;
+        margin-bottom: 30px;
+    }
+    .department-two{
+        padding: 80px 0px 40px;
+    }
+    .department-menu ul{
+        display: block;
+    }
+    .department-menu ul li a{
+        padding: 30px 0px;
+    }
+    .department-menu ul li{
+        width: 50%;
+        float: left;
+    }
+    .department-menu ul li a.active:before {
+        top: 0;
+        height: 100%;
+        left: 0;
+        width: 100%;
+        opacity: 1;
+    }
+    .dp-left-thumb {
+        height: 200px;
+        margin-top: 40px;
+    }
+    .dp-right-content ul li{
+        width: 100%;
+    }
+    .why-choose{
+        padding: 80px 0px;
+    }
+    .why-choose .appoinment-form{
+        margin-top: 0;
+    }
+    .whyc-content-right{
+        margin-top: 50px;
+    }
+    .gallery-area {
+        padding: 80px 0px 60px;
+    }
+    .gallery-area {
+        padding: 80px 0px 60px;
+    }
+    .gallery-list{
+        text-align: center;
+    }
+    .gallery-item{
+        display: inline-block;
+    }
+    .team-two{
+        padding-bottom: 80px;
+    }
+    .team-pagination{
+        margin-top: 30px;
+    }
+
+    /*---------------------------
+        home Three
+    ---------------------------*/
+    .hbox-inner .logo a {
+        padding: 23px 15px;
+    }
+    .header-box-style .slicknav_btn {
+        top: -66px;
+    }
+    .slider-three {
+        height: 650px;
+    }
+    .about-two .about-content {
+        margin-top: 40px;
+    }
+    .video-content h2 {
+        font-size: 28px;
+        line-height: 41px;
+    }
+    .gallery-two{
+        padding-top: 0;
+    }
+    .team-pagination {
+        margin-top: 33px;
+    }
+    .gallery-two .grid_item {
+        margin-top: 30px;
+    }
+    .gallery-two .grid_item:first-child {
+        margin-top: 0;
+    }
+    .feature-blog-two {
+        padding-top: 0;
+    }
+    .ft2-location{
+        margin-top: 50px;
+        text-align: center;
+    }
+    .footer-two .footer-inner {
+        text-align: center;
+    }
+
+    /*---------------------------
+        About Us
+    ---------------------------*/
+    .banner-area {
+        height: 500px;
+        padding-top: 80px;
+    }
+    .banner-content h2 {
+        font-size: 32px;
+        margin-bottom: 14px;
+    }
+    .banner-content h4 {
+        font-size: 16px;
+    }
+    .crumbs ul li a, .crumbs ul li span{
+        font-size: 14px;
+    }
+    .crumbs ul li a{
+        margin-right: 17px;
+    }
+    .crumbs ul li a:before {
+        right: -16px;
+        top: -4px;
+    }
+    .phisician-content {
+        padding-top: 80px;
+    }
+    .phisician-area{
+        padding-bottom: 80px;
+    }
+    .phisician-thumbnail {
+        margin-top: 40px;
+    }
+    .phisician-content h2 {
+        font-size: 26px;
+    }
+    .phisician-content h5 {
+        font-size: 17px;
+    line-height: 26px;
+    }
+    .medikare-dental-num{
+        padding: 80px 0px 40px;
+    }
+    .mdn-single h2, .mdn-single h2 span {
+        font-size: 39px;
+    }
+    .mdn-single{
+        margin-bottom: 40px;
+    }
+
+    /*---------------------------
+        About Us Two
+    ---------------------------*/
+    .abt-two-content{
+        padding: 80px 0px; 
+    }
+    .res-no-tp{
+        padding-top: 0;
+    }
+    .about-us-two{
+        background-color: #2a2b2c;
+    }
+    .abt-two-content:before{
+        display: none;
+    }
+    .abt-two-content{
+        background-color: transparent;
+    }
+
+    /*---------------------------
+        Faq
+    ---------------------------*/
+    .faq-area,
+    .euestion-action {
+        padding: 80px 0px;
+    }
+    .subscribe-area{
+        padding: 60px 0px 80px;
+    }
+    .accordion-area .card-header h5 button:before,
+    .accordion-area .card-header h5 button:after{
+        display: none;
+    }
+    .accordion-area h2 {
+        font-size: 25px;
+        margin-bottom: 27px;
+    }
+
+
+    /*---------------------------
+        Service
+    ---------------------------*/
+    .service-page-area{
+        padding: 80px 0px 60px;
+    }
+
+    /*---------------------------
+        Service Details
+    ---------------------------*/
+    .service-details-area {
+        padding-top: 80px;
+    }
+    .related-post{
+        padding-bottom: 60px;
+    }
+    h2.srvc-title a {
+       font-size: 15px;
+    }
+
+    /*---------------------------
+        Doctors
+    ---------------------------*/
+    .all-doctors {
+        padding: 80px 0px 50px;
+    }
+
+    /*---------------------------
+        Appoinment
+    ---------------------------*/
+    .appoinment-area{
+        padding: 80px 0px;
+    }
+    .appoinment-area .appoinment-form{
+        margin-top: 0;
+        padding: 32px 20px 0px;
+    }
+
+    /*---------------------------
+        Department
+    ---------------------------*/
+    .department-details {
+        padding: 80px 0px;
+    }
+    .dpt-details-left{
+        padding: 0;
+    }
+    .dpts-list {
+        flex-basis: 100%;
+        margin-bottom: 40px;
+    }
+    .dpt-list-title h2{
+        margin-right: 0;
+    }
+    .dpts-list:last-child{
+        margin-bottom: 0;
+    }
+    .related-doctor {
+        padding: 50px 0px 0;
+    }
+    .department-details .appoinment-form{
+        padding: 32px 20px 0px;
+    }
+    .widget-sidebar {
+        margin-top: 80px;
+    }
+
+    /*---------------------------
+        Blog
+    ---------------------------*/
+    .blog-area{
+        padding: 80px 0px;
+    }
+    .pagination-wrapper li:first-child a i,
+    .pagination-wrapper li:last-child a i{
+        display: none;
+    }
+    .blg-inner-img img{
+        margin: 10px 0px;
+    }
+    .post-next-prev{
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0);
+    }
+    .np-post{
+        flex-basis: 100%;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.05);
+    }
+    .prev-post{
+        margin-bottom: 10px;
+        border: none;
+        border-bottom: 1px solid #f9f9f9;
+    }
+    .next-post{
+        border-top: 1px solid #f9f9f9;
+    }
+    .abt-auth-thumb {
+        float: none;
+        margin-right: 0;
+        margin: auto;
+        margin-bottom: 16px;
+    }
+    .abt-auth-content{
+        text-align: center;
+    }
+    .children {
+        padding-left: 20px;
+    }
+    .comment-area{
+        padding-bottom: 0;
+    }
+
+    /*---------------------------
+        404
+    ---------------------------*/
+    .page-error{
+        min-height: 100vh;
+        height: 700px;
+        padding-top: 260px;
+    }
+    .error-content img,
+    .error-content h4{
+        margin-top: 0;
+    }
+    .error-content h2 {
+        font-size: 90px;
+    }
+    .error-content img{
+        margin-bottom: 40px;
+    }
+
+
+
+}
+
+
+
+/* small mobile :320px. */
+
+@media (min-width: 240px) and (max-width: 480px) {
+    /*---------------------------
+        home one
+    ---------------------------*/
+    .ht-social ul {
+        text-align: center;
+    }
+    .ht-social ul li {
+        float: none;
+        display: inline-block;
+    }
+    .ht-social ul li a {
+        border: none;
+    }
+    .ht-appointment {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .ht-open-time p {
+        text-align: center;
+        margin: 0px 0px 10px;
+    }
+    .ht-open-time p span {
+        display: block;
+    }
+    .ht-address ul {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .header-top-inner .ht-address ul li ,
+    .ht-address ul li{
+        letter-spacing: 0;
+        margin-left: 6px;
+    }
+    .header-middle>div>div {
+        flex-wrap: wrap-reverse;
+    }
+    .ht-address {
+        margin-top: 20px;
+    }
+    .logo a {
+        padding: 21px 0px 33px;
+    }
+    .feature-area,
+    .testimonial-area,
+    .department-area,
+    .callto-action,
+    .footer-top {
+        padding: 70px 0px;
+    }
+    .section-title h2 {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .section-title h3 {
+        font-size: 17px;
+    }
+    .section-title {
+        margin-bottom: 50px;
+    }
+    .about-title h2 {
+        font-size: 17px;
+    }
+    .abt-single-list h4 {
+        font-size: 16px;
+    }
+    .appoinment-form {
+        margin-top: 40px;
+    }
+    .appoinment-form h2 {
+        font-size: 13px;
+        line-height: 21px;
+    }
+    .appoinment-form form input[type='submit'] {
+        font-size: 14px;
+    }
+    .ft-single {
+        padding-left: 25px;
+    }
+    .about-area {
+        padding-bottom: 70px;
+    }
+    .service-area {
+        padding: 70px 0px 50px;
+    }
+    .doctor-area {
+        padding: 70px 0px 50px;
+    }
+    .single-doctor {
+        margin-bottom: 20px;
+    }
+    .callto-action h2 {
+        font-size: 18px;
+    }
+    .callto-action .btn-style-one {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .feature-blog {
+        padding: 70px 0px 40px;
+    }
+    .single-blog {
+        margin-bottom: 30px;
+    }
+    .blog-meta .meta-title h2 a {
+        font-size: 16px;
+    }
+    .google-map-area {
+        overflow: hidden;
+    }
+    #google_map {
+        height: 350px;
+    }
+    .our-location {
+        padding: 70px 0px;
+        padding-left: 50px;
+        right: 0;
+        width: 100%;
+        position: relative;
+    }
+    .footer-menu ul li {
+        display: block;
+    }
+    .footer-menu ul li a {
+        padding: 9px 30px;
+    }
+
+    /*---------------------------
+        home Two
+    ---------------------------*/
+    .header-bottom.sticky-header,
+    .header-style-two {
+        height: 94px;
+        top: auto;
+        bottom: 0!important;
+        position: relative;
+        -webkit-transition: all 0s;
+        -o-transition: all 0s;
+        transition: all 0s;
+    }
+    .header-style-two:before {
+        display: none;
+    }
+    .header-style-two .logo a {
+        padding: 27px 0px 32px;
+    }
+    .header-top-inner {
+        display: block;
+    }
+    .slider-left-img {
+        display: none;
+    }
+    .about-two,
+    .why-choose {
+        padding: 70px 0px;
+    }
+    .about-b-img {
+        margin-top: 60px;
+        height: 200px;
+        margin-bottom: 30px;
+    }
+    .department-menu ul{
+        display: block;
+    }
+    .department-menu ul li a{
+        padding: 30px 0px;
+    }
+    .department-menu ul li{
+        width: 50%;
+        float: left;
+    }
+    .department-menu ul li a.active:before {
+        top: 0;
+        height: 100%;
+        left: 0;
+        width: 100%;
+        opacity: 1;
+        border-color: transparent;
+    }
+    .dp-left-thumb {
+        height: 200px;
+    }
+    .dp-right-content ul li{
+        width: 100%;
+    }
+    .department-two{
+        padding: 70px 0px 50px;
+    }
+    .why-choose .appoinment-form{
+        margin-top: 0;
+    }
+    .whyc-content-right{
+        margin-top: 50px;
+    }
+    .whyc-list-area .icon{
+        height: 70px;
+        width: 70px;
+        line-height: 70px;
+        margin-right: 15px;
+    }
+    .gallery-area{
+        padding: 70px 0px 50px;
+    }
+    .department-content {
+        margin-top: 50px;
+    }
+
+    /*---------------------------
+        home Three
+    ---------------------------*/
+    .hbox-inner .logo a {
+        padding: 23px 15px;
+    }
+    .header-box-style .slicknav_btn {
+        top: -58px;
+    }
+    .slider-three {
+        height: 697px;
+    }
+    .about-two .about-content {
+        margin-top: 40px;
+    }
+    .video-content h2 {
+        font-size: 28px;
+        line-height: 41px;
+    }
+    .gallery-two{
+        padding-top: 0;
+    }
+    .team-pagination {
+        margin-top: 33px;
+    }
+    .gallery-two .grid_item {
+        margin-top: 30px;
+    }
+    .gallery-two .grid_item:first-child {
+        margin-top: 0;
+    }
+    .feature-blog-two {
+        padding-top: 0;
+    }
+    .ft2-location{
+        margin-top: 50px;
+    }
+
+    /*---------------------------
+        About Us
+    ---------------------------*/
+    .banner-area {
+        height: 400px;
+        padding-top: 67px;
+    }
+    .banner-content{
+        text-align: center;
+    }
+    .banner-content h2 {
+        font-size: 32px;
+        margin-bottom: 14px;
+    }
+    .banner-content h4 {
+        font-size: 16px;
+    }
+    .crumbs{
+        display: block;
+    }
+    .crumbs ul{
+        text-align: center;
+        margin-top: 15px;
+    }
+    .phisician-content {
+        padding-top: 70px;
+    }
+    .phisician-area{
+        padding-bottom: 70px;
+    }
+    .phisician-thumbnail {
+        margin-top: 40px;
+    }
+    .phisician-content h2 {
+        font-size: 26px;
+    }
+    .phisician-content h5 {
+        font-size: 15px;
+    line-height: 26px;
+    }
+    .medikare-dental-num{
+        padding: 80px 0px 40px;
+    }
+    .mdn-single h2, .mdn-single h2 span {
+        font-size: 39px;
+    }
+    .mdn-single{
+        margin-bottom: 40px;
+    }
+
+    /*---------------------------
+        About Us Two
+    ---------------------------*/
+    .abt-two-content{
+        padding: 70px 0px; 
+    }
+    .res-no-tp{
+        padding-top: 0;
+    }
+
+    /*---------------------------
+        Faq
+    ---------------------------*/
+    .faq-area,
+    .euestion-action {
+        padding: 70px 0px;
+    }
+    .subscribe-area{
+        padding: 50px 0px 70px;
+    }
+    .accordion-area .card-header h5 button:before,
+    .accordion-area .card-header h5 button:after{
+        display: none;
+    }
+    .euestion-action h2 {
+        font-size: 23px;
+    }
+    .accordion-area h2 {
+        font-size: 20px;
+        margin-bottom: 27px;
+    }
+
+    /*---------------------------
+        Service
+    ---------------------------*/
+    .service-page-area{
+        padding: 70px 0px 50px;
+    }
+
+    /*---------------------------
+        Service Details
+    ---------------------------*/
+    .service-details-area {
+        padding-top: 70px;
+    }
+    h2.srvc-title a {
+        font-size: 15px;
+        line-height: 27px;
+    }
+    .related-post{
+        padding-bottom: 50px;
+    }
+
+    /*---------------------------
+        Doctors
+    ---------------------------*/
+    .all-doctors {
+        padding: 70px 0px 50px;
+    }
+
+    /*---------------------------
+        Appoinment
+    ---------------------------*/
+    .appoinment-area{
+        padding: 70px 0px;
+    }
+    .appoinment-area .appoinment-form{
+        margin-top: 0;
+        padding: 32px 20px 0px;
+    }
+
+    /*---------------------------
+        Department
+    ---------------------------*/
+    .department-details {
+        padding: 70px 0px;
+    }
+    .dpt-details-left{
+        padding: 0;
+    }
+    .dpts-list {
+        flex-basis: 100%;
+        margin-bottom: 40px;
+    }
+    .dpt-list-title h2{
+        margin-right: 0;
+    }
+    .dpts-list:last-child{
+        margin-bottom: 0;
+    }
+    .related-doctor {
+        padding: 30px 0px 0;
+    }
+    .department-details .appoinment-form{
+        padding: 32px 10px 0px;
+    }
+    .widget-sidebar {
+        margin-top: 70px;
+    }
+
+    /*---------------------------
+        Blog
+    ---------------------------*/
+    .blog-area{
+        padding: 70px 0px;
+    }
+    .pagination-wrapper li:first-child a i,
+    .pagination-wrapper li:last-child a i{
+        display: none;
+    }
+    .blg-inner-img img{
+        margin: 10px 0px;
+    }
+    .post-next-prev{
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0);
+    }
+    .np-post{
+        flex-basis: 100%;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.05);
+    }
+    .prev-post{
+        margin-bottom: 10px;
+        border: none;
+        border-bottom: 1px solid #f9f9f9;
+    }
+    .next-post{
+        border-top: 1px solid #f9f9f9;
+    }
+    .abt-auth-thumb {
+        float: none;
+        margin-right: 0;
+        margin: auto;
+        margin-bottom: 16px;
+    }
+    .abt-auth-content{
+        text-align: center;
+    }
+    .children {
+        padding-left: 20px;
+    }
+    .comment-area{
+        padding-bottom: 0;
+    }
+
+    /*---------------------------
+        404
+    ---------------------------*/
+    .page-error{
+        min-height: 100vh;
+        height: 600px;
+        padding-top: 223px;
+    }
+    .error-content img,
+    .error-content h4{
+        margin-top: 0;
+    }
+    .error-content h2 {
+        font-size: 90px;
+    }
+    .error-content img{
+        margin-bottom: 40px;
+    }
+
+
+}

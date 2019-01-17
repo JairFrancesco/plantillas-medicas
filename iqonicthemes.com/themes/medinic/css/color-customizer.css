@@ -1,0 +1,38 @@
+/*
+Medinic - Medical, Health, Pharmacy HTML Template
+Author: iqonicthemes.in
+Version: 1.0
+Design and Developed by: iqonicthemes.in
+*/
+
+/*Color Skins*/
+.iq-colorbox .color-1 { background: #0bc9e3;}
+.iq-colorbox .color-2 { background: #356aca;}
+.iq-colorbox .color-3 {background: #04899d;}
+.iq-colorbox .color-4 { background: #1cb98b;}
+.iq-colorbox .color-5 {background: #0e405a;}
+.iq-colorbox .color-6 { background: #0b7e97;}
+.iq-colorbox .color-7 {background: #28c9a5;}
+.iq-colorbox .color-8 { background: #0cb4fb;}
+
+
+
+.iq-colorbox { background-color: #ffffff;width: 300px; position: fixed; top: 25%; bottom: 0; right: -300px; color: #222222; z-index: 99999;  height: 380px;
+-webkit-box-shadow: -2px 0 45px -4px rgba(0, 0, 0, 0.15); -moz-box-shadow: -2px 0 45px -4px rgba(0, 0, 0, 0.15); box-shadow: -2px 0 45px -4px rgba(0, 0, 0, 0.15);}
+.iq-colorbox .color-picker { background-color: #ffffff; position: absolute; padding: 15px 30px; height: 100%;  border-top: none; }
+.iq-colorbox.color-fix { box-shadow: none; }
+.iq-colorbox.opened .color-picker { opacity: 1; }
+.iq-colorbox a.color-full { position: absolute; top: 200px; right: 300px; background: #ffffff; width: 45px; height: 45px; line-height: 45px; display: block; font-size: 24px; color: #000; text-align: center; text-decoration: none;-webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1); box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);}
+.iq-colorbox.opened a.color-full { left: -45px;  border-color: transparent;}
+.iq-colorbox ul { margin: 0; padding: 5px 0 0 0; list-style: none; font-size: 0; }
+.iq-colorbox ul li { position: relative; width: 50px; height: 40px; float: left; display: inline-block; cursor: pointer; margin: 0 10px 10px 0; -webkit-transition: all linear 0.5s; -moz-transition: all linear 0.5s; -o-transition: all linear 0.5s; -ms-transition: all linear 0.5s; transition: all linear 0.5s; }
+.iq-colorbox h3 { font-size: 20px; margin-top: 0px; font-weight: 600; }
+.iq-colorbox ul li.iq-colormark:before { position: absolute; content: "\f00c"; left: 50%; top: 16%; color: #ffffff; font-size: 20px; display: inline-block; text-align: center; font-family: FontAwesome; transform: translateY(-50%); -webkit-transform: translateY(-50%); -o-transform: translateY(-50%); -ms-transform: translateY(-50%); -moz-transform: translateY(-50%); transform: translateX(-50%); -webkit-transform: translateX(-50%); -o-transform: translateX(-50%); -ms-transform: translateX(-50%); -moz-transform: translateX(-50%);  }
+.iq-colorbox .button { width: 100%; text-align: center; margin-top: 10px; text-transform: capitalize;}
+.iq-colorbox ul li:nth-child(4) { margin-right: 0px; }
+.iq-colorbox ul li:nth-child(8) { margin-right: 0px; }
+.iq-colorbox ul li:nth-child(12) { margin-right: 0px; }
+.iq-colorbox ul li:nth-child(16) { margin-right: 0px; }
+.iq-colorbox ul li:nth-child(20) { margin-right: 0px; }
+ 
+

@@ -1,0 +1,517 @@
+	
+/*
+================================================
+21. Media Quries 
+================================================
+*/
+@media (min-width: 992px) and (max-width: 1200px) {
+.tile-special-offer{
+margin-bottom:20px;
+}
+.gym-class-text{
+top: 88px;
+    left: 30px;
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+.navigation {
+	padding: 0;
+}
+.logo {
+  float: left;
+}
+.menu-bg .logo {
+  padding-top: 29px;
+}
+.navbar-toggle {
+  margin-right: 0;
+  margin-top: -34px;
+}
+.tp-caption.text-cons{
+padding-left:20px;
+}
+.navbar-default .navbar-nav li a {
+  font-size: 12px;
+  padding: 23px 10px;
+}
+.navbar-collapse {
+  margin: 6px 0 0;
+}
+.navigation .navbar-collapse {
+	padding: 0;
+}
+.navbar {
+	margin-top:0px;
+}
+.ft-cards .ft-item{
+margin-bottom:20px;
+}
+.ab-col-info{
+margin-bottom:20px;
+}
+.separator-line {
+    margin: 4% auto;
+}
+.class-img-hover{
+margin-top:15px;
+}
+.medical_content-active{
+margin-bottom:20px;
+}
+.gym-counter .counter .gym-number {
+    font-size: 48px;
+	}
+	.gym-counter .counter h4 {
+    font-size: 14px;
+	}
+	.events-posts .event-post .event-post-block{
+	margin-top:10px;
+	}
+.sidebar-gallery li{
+width: 14%;
+}
+.hover-shadow-1{margin-top:15px;
+}
+.tile-special-offer{
+margin-bottom:20px;
+}
+.fea-box-5{
+float:none;
+}
+.btn-btn{
+margin-bottom: 20px;
+}
+
+.team .item-team .overlay-1{
+    padding: 50px 20px;
+	}
+.page-content a.button{
+margin-bottom:10px;
+}
+.tec-box{
+margin-top:10px;
+}
+.pricing{
+text-align:center;
+}
+.tp-caption.font-50, .tp-caption.font-s, .tp-caption.font-26{
+font-size:30px !important;
+}
+.button-cons {
+left:20px !important;
+   }
+.pricing-content .pricing-table-list ul li{
+font-size:12px;
+}
+.subscribe-form .email{
+width:50%;
+}
+.pricing-table.active .pricing-top a.button{
+    padding: 12px 30px;
+	    font-size: 16px;
+}
+.clients .clients-item .clients-logos{
+width:100%;
+}
+ul.social_icon {
+    margin-bottom: 10px;
+}
+
+
+}
+@media (max-width: 767px) {
+section h2 {
+	font-size: 25px;
+}
+	.navigation{
+	display:none;
+	}
+	.mobile-nav{
+	display:block;
+	}
+	.navbar-header{
+	display:none;
+	}
+.header-top-area .slicknav_menu{
+    background: transparent;
+    padding: 15px 0px;
+}
+.header-top-area .slicknav_nav {
+    background: #333;
+    margin-top: 10px;
+    padding: 10px;
+}
+.header-top-area .slicknav_btn{
+background-color:#f42267;
+}
+.header-top-area .slicknav_nav a:hover, .header-top-area .slicknav_nav a:focus, .header-top-area .slicknav_nav a:active{
+color:#FFFFFF;
+}
+.header-top-area .slicknav_nav a:hover{
+background-color:#f42267;
+}
+.header-top-area .slicknav_nav .slicknav_row{
+padding:8px 10px;
+}
+.header-top-area .slicknav_nav a i.fa{
+padding-right:10px;
+padding-left:5px;
+}
+.header-top-area .slicknav_nav .slicknav_arrow{
+float:right;
+}
+.logo{
+float:left;
+}
+.btn-btn{
+margin-bottom: 20px;
+}
+#coming h1{
+font-size:26px !important;
+}
+#clockdiv > div{
+margin-bottom:15px;
+}
+.tp-caption.down{
+padding-left:30px!important;
+top:60px!important;
+}
+.tp-caption.down.down-p{
+padding-left:60px!important;
+visibility:hidden !important;
+}
+.tp-caption.txt-btn{
+top: -20px;
+    right: 40px;
+}
+.tp-caption{
+padding-left:30px !important;
+}
+.tp-caption.slide img{
+visibility:hidden!important;
+}
+.tp-caption span.font-50{
+font-size:20px !important;
+}
+.tp-caption span.font-38{
+font-size:18px !important;
+}
+.tp-caption span.font-26{
+font-size:10px !important;
+}
+.tp-caption.text-sm span{
+font-size:10px!important;
+margin-right:70px!important;
+}
+.tp-caption.text-side{
+padding-right:30px !important;
+}
+.tp-caption.font-50, .tp-caption.font-s, .tp-caption.font-26{
+font-size:10px !important;
+}
+
+.button-cons {
+   visibility:hidden !important;
+   }
+.tp-caption.font-40{
+font-size:10px !important;
+}
+.tp-caption.font-70, .tp-caption.font-30, .tp-caption.font-80{
+font-size:16px !important;
+}
+.tp-caption.txt-sm{
+font-size:8px!important;
+padding-right:5px!important;
+}
+.tp-caption.font-60{
+font-size:18px !important;
+}
+.tp-caption.font-32{
+font-size:16px !important;
+}
+.tp-caption.spa-txt{
+font-size:16px !important;
+}
+.tp-caption.spa-txt-s{
+padding-right:5px!important;
+}
+.tp-caption span.font-36, span.font-45, span.font-26{
+font-size:16px !important;
+}
+.tp-caption a.button{
+padding: 6px 15px;
+}
+.tp-caption.btn-slider{
+visibility:hidden !important;
+}
+.tp-shape{
+visibility:hidden !important;
+}
+.tp-caption a.button{
+top:0px;
+margin-right:20px;
+}
+.slider-sec-text .font-90{
+font-size:55px!important;
+}
+.slider-sec-text .font-70{
+font-size:50px!important;
+}
+.banner-text .font-55 {
+    font-size: 50px !important;
+	line-height:50px;
+}
+.tab .nav.nav-tabs li {
+    margin-bottom: 10px;
+	}
+.tec-box.p-50{
+	padding:29px !important;
+	}
+.banner-text h3 {
+	line-height:30px;
+}
+.outer-box .form-box a.button {
+    font-size: 12px;
+	padding:10px 15px;
+    margin-left: 0px;
+	}
+.ft-cards .ft-item{
+margin-bottom:20px;
+}
+.bg-image .font-16{
+font-size:12px !important; 
+}
+.class-img-hover{
+margin-top:30px;
+}
+.gym-counter .counter .gym-number {
+    font-size: 48px;
+	padding-top:10px;
+	}
+	.gym-counter .counter h4 {
+    font-size: 14px;
+	}
+	.events-posts .event-post .event-post-block{
+	margin-top:10px;
+	}
+.tec-box{
+margin-top:10px;
+}
+.fea-box-5{
+float:none;
+}
+.f_item .feat_item {
+    padding: 20px 62px 42px;
+	}
+	.intro h1{
+	font-size:20px;
+	}
+	.portfolio-filter li {
+    padding-top: 5px;
+	}
+
+.ab-col-info{
+margin-bottom:20px;
+}
+.sidebar-gallery li{
+width: 14%;
+}
+.counters .counter .number {
+    font-size: 40px;
+	margin: 0 0 30px;
+}
+.hover-shadow-1{margin-top:15px;
+}
+.medical_content, .medical_content-active{
+margin-bottom:20px;
+}
+.medical_btn{
+margin-bottom:20px;
+}
+.tp-caption span.txt-sm-s{
+font-size:6px !important;
+padding-right:10px!important;
+}
+.medical-counter .counter .medical-number {
+    font-size: 30px;
+	}
+	.medical-counter .counter h4{
+	padding-bottom:10px;
+	}
+	.what-we-do-best .section_heading{
+	text-align:center;
+	}
+.tile-special-offer{
+margin-bottom:20px;
+}
+.feature-box-1{
+margin-bottom:20px;
+}
+.team .item-team .overlay-1{
+    padding: 0px 2px;
+	}
+.page-content a.button{
+margin-bottom:10px;
+}
+.gym-area .ln-h-50 {
+    line-height: 30px!important; 
+}
+.gym-area .font-50 {
+    font-size: 25px !important;
+}
+.pricing{
+text-align:center;
+}
+.subscribe-form .email{
+width:34%;
+}
+.clients .clients-item .clients-logos{
+width:50%;
+}
+.what-we-do-block{
+margin-bottom:40px;
+}
+.what-we-do-block p, .what-we-do-block fa{
+display:none;
+}
+.medical_btn{
+line-height: 28px;
+font-size: 9px;
+padding: 0 10px;
+}
+.clients .clients-item{margin-top:10px;
+margin-bottom:20px;
+}
+.subscribe-form .submit-btn{
+margin-top:10px;
+}
+ul.social_icon {
+    margin-bottom: 10px;
+}
+@media (min-width: 266px) and (max-width: 330px) {
+.gym-class-text h3  {
+    font-size: 20px !important;
+    padding-right: 29px;
+}
+.events-posts .event-post .event-post-block .event-thumb h5{
+bottom: 10px;
+}
+.gym-class-text p {
+    padding-right: 29px;
+}
+.tp-caption span.font-18{
+font-size:10px !important;
+padding-right:10px!important;
+}
+.tp-caption.spa-txt-s{
+padding-right:5px!important;
+}
+.tp-caption.slide-txt.font-40{
+font-size:8px!important;
+margin-right:5px!important;
+}
+.tp-caption.font-50, .tp-caption.font-s, .tp-caption.font-26{
+font-size:30px !important;
+}
+.button-cons {
+left:20px !important;
+   }
+.tp-caption.text-sm span{
+font-size:8px!important;
+}
+
+.tp-caption.down{
+padding-left:30px!important;
+top:60px!important;
+}
+.tp-caption.down.down-p{
+padding-left:60px!important;
+visibility:hidden !important;
+}
+.tp-caption.txt-btn{
+top: -20px;
+    right: 40px;
+}
+.tp-caption{
+padding-left:30px !important;
+}
+.tp-caption.sl{
+margin-right:10px !important;
+}
+.tp-caption.slide img{
+visibility:hidden!important;
+}
+.tp-caption span.font-50{
+font-size:20px !important;
+}
+.tp-caption span.font-38{
+font-size:18px !important;
+}
+.tp-caption span.font-26{
+font-size:12px !important;
+}
+.tp-caption.text-sm span{
+font-size:10px!important;
+margin-right:70px!important;
+}
+.tp-caption.text-side{
+padding-right:30px !important;
+}
+.tp-caption.font-50, .tp-caption.font-s, .tp-caption.font-26{
+font-size:10px !important;
+}
+
+.button-cons {
+   visibility:hidden !important;
+   }
+.tp-caption.font-40{
+font-size:10px !important;
+}
+.tp-caption.font-70, .tp-caption.font-30, .tp-caption.font-80{
+font-size:16px !important;
+}
+.tp-caption.font-60{
+font-size:18px !important;
+}
+.tp-caption.font-32{
+font-size:16px !important;
+}
+.tp-caption.spa-txt{
+font-size:16px !important;
+}
+.tp-caption.spa-txt-s{
+padding-right:5px!important;
+}
+.tp-caption span.font-36, span.font-45, span.font-26{
+font-size:16px !important;
+}
+.tp-caption a.button{
+padding: 6px 15px;
+}
+.tp-caption.btn-slider{
+visibility:hidden !important;
+}
+.tp-shape{
+visibility:hidden !important;
+}
+.tp-caption a.button{
+top:0px;
+margin-right:20px;
+}
+.medical-area .area_content h4 {
+    font-size: 20px !important;
+}
+.tp-caption span.font-26{
+font-size:8px !important;
+}
+.slider-sec-text .font-90{
+font-size:55px!important;
+}
+.slider-sec-text .font-70{
+font-size:50px!important;
+}
+.banner-text .font-55 {
+    font-size: 50px !important;
+	line-height:50px;
+}
+}	

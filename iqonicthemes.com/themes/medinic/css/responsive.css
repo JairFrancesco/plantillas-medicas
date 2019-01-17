@@ -1,0 +1,185 @@
+/*
+Medinic - Medical, Health, Pharmacy HTML Template
+Author: iqonicthemes.in
+Version: 1.0
+Design and Developed by: iqonicthemes.in
+*/
+/*****************
+================================================
+(  Media Queries  )
+================================================
+*******************/
+@media only screen and (min-width:1890px) and (max-width:2529px) { }
+@media(max-width:1399px) {
+.iq-tools-testi { left: 160px; }
+
+}
+@media(max-width:1365px) {
+.iq-tools-box .iq-tools2 { width: 610px; }
+.iq-tools-box .iq-tools3 { width: 650px; }
+.iq-tools-box .iq-tools1 {width: 500px;}
+}
+@media(max-width:1299px) { }
+@media(max-width:1199px) {
+header.header-1 .mega-menu .menu-links > li > a { padding: 17px 20px; }
+header.header-1 .mega-menu.menuFullWidth.desktopTopFixed .menu-links > li > a { padding: 17px 20px; }
+header.header-1 .mega-menu.menuFullWidth.desktopTopFixed .menu-logo img { width: 150px; height: inherit; }
+header.header-1 .mega-menu.menuFullWidth.desktopTopFixed .menu-logo { margin-top: 10px; }
+header.header-2 .header-bottom .mega-menu .menu-logo > li > a img { height: 40px; margin-top: 5px;}
+header.header-2 .header-bottom .mega-menu.menuFullWidth.mobileTopFixed .menu-logo > li > a img {margin-top: 0;}
+
+
+
+header.header-2 .mega-menu .menu-links > li a { padding: 20px 0 20px 30px; }
+.iq-feature1 { height: 460px; }
+.iq-feature1 { padding: 20px 30px; }
+.iq-tools-box .iq-tools2 { right: -100px; }
+.iq-tools-box .iq-tools1 { left: 0px; width: 440px; }
+.iq-footer2 .newsletter-form .form-control { font-size: 14px; }
+.iq-tools-box .iq-tools3 { width: 585px; }
+.iq-tools-testi { left: 50px; }
+.iq-footer .newsletter-form .form-control { font-size: 14px; }
+.iq-footer .iq-media-blog li { margin: 10px 2px; }
+.iq-footer .newsletter-form .button { margin-right: 0; }
+header.header-1 .mega-menu.menuFullWidth.desktopTopFixed .menu-logo img { margin-top: 0;}
+.iq-footer2 .iq-media-blog li a{width: 39px; height:42px;}
+}
+@media screen and (max-width:1024px) { }
+@media(max-width:992px) {
+header.header-1 .header-top, header.header-1 .header-bottom .iq-link a { display: none; }
+header.header-1 .mega-menu .menu-links { margin-top: 50px; }
+header.header-1 .mega-menu .menu-links > li > a { padding: 10px;}
+header.header-1 .mega-menu .menu-links > li { background: #ffffff;}
+header.header-1 .mega-menu .menu-links > li a{ color: #222222;}
+header.header-1 .mega-menu .menu-links > li .drop-down-multilevel li a { background: #ffffff; color: #222222;}
+header.header-1 .mega-menu .menu-links > li.activeTrigger, header.header-1 .mega-menu .menu-links > li.active, header.header-1 .mega-menu .menu-links > li:hover { background-color: #ea601e }
+header.header-1 .mega-menu .drop-down-multilevel a { color: #ffffff; }
+header.header-1 .mega-menu .drop-down-multilevel { background: #ea601e; }
+header.header-1 .mega-menu.menuFullWidth.desktopTopFixed .menu-logo { margin-top: 0; }
+header.header-1 .mega-menu .menu-links > li .drop-down-multilevel li.active a, header.header-1 .mega-menu .menu-links > li .drop-down-multilevel 
+li:hover a{ color: #222222; background: #ffffff;}
+header.header-1 { z-index: 9999; }
+header.header-2 .mega-menu .menu-links { margin-top: 30px;}
+header.header-2 .mega-menu .menu-links > li a { padding: 10px 0 10px 30px;}
+header.header-1 .mega-menu.menuFullWidth.mobileTopFixed .menu-links { width: 100%; background: #222222; }
+#rev_slider_137_1 .zeus.tparrows { min-width: 40px !important; min-height: 40px !important; }
+#rev_slider_137_1 .zeus.tparrows:before { font-size: 20px !important; line-height: 40px !important; }
+header.header-2 .topbar-left.iq-contact li { margin: 10px 10px 10px 0; }
+header.header-2 .header-bottom .mega-menu > section.menu-list-items { background: #ffffff; }
+header.header-2 .header-bottom .mega-menu.menuFullWidth.mobileTopFixed > section.menu-list-items { padding: 10px 15px; -webkit-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.15); -moz-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.15); box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.15); }
+.iq-feature1 { height: inherit; }
+.iq-feature1 { margin-top: 0; }
+.iq-tools-box .iq-tools2 { display: none; }
+.re-left { text-align: left !important; margin-top: 20px; }
+.iq-footer2 .footer-bottom .iq-copyright, .iq-footer3 .footer-bottom .iq-media-blog { text-align: center; margin: 15px 0 0; }
+.iq-footer3 .footer-bottom .iq-copyright { text-align: center; padding-top: 0px; }
+.iq-tools-box .iq-tools1, .iq-tools-box .iq-tools-testi { display: none; }
+.re-no-space { padding: 0 0 80px; }
+.iq-breadcrumb1 { padding: 65px 0 82px 0;}
+.iq-breadcrumb1 h2 { text-align: center; }
+.iq-breadcrumb1 nav { text-align: center !important; margin-top: 30px; }
+.re-9-mt-30 { margin-top: 30px; }
+.iq-footer .iq-copyright { text-align: center; margin: 20px 0 0; }
+.iq-footer .menu { text-align: center; }
+.heading-title p { padding: 0; }
+.iq-footer3 .footer-top .logo.text-center{text-align: left !important;}
+.iq-footer3 .footer-top .logo img{width: 200px;}
+.iq-tools-appo{display: none;}
+.iq-totale{margin-top: 30px;}
+.iq-coming-blog {padding: 50px 0;}
+.iq-coming-1 .big-text {font-size: 30px;line-height: 40px}
+.iq-coming-1 h5 { font-size: 20px; line-height: 24px;}
+.iq-coming-1 #countdown{margin-top: 50px; text-align: left;}
+.iq-coming-1 #countdown li span { font-weight: 800; font-size: 32px; line-height: 40px;}
+.iq-coming-1 #countdown li p { font-size: 14px; line-height: 24px;}
+.iq-coming-1 #countdown li.seperator { margin: 10px 0px;}
+.iq-contact1 .contact-form { margin-bottom: 30px;}
+.doctors-full{text-align: left; margin-bottom: 30px;}
+.iq-error h2 { font-size: 40px; line-height: 50px;}
+.iq-faq-box.blue-bg{margin-top: 30px;}
+.iq-tab-faq .nav-pills .nav-item { width: 30%; }
+.iq-accordion.accordion-one.light.right-icon .ad-title { font-size: 14px;}
+#iq-portfolio{margin-top: 30px;}
+.iq-log-reg .log-reg-footer a.iq-link { float: left;margin-top: 20px;}
+.iq-maintenance h2, .iq-maintenance-2 h2 {font-size: 60px; line-height: 80px;}
+.iq-maintenance h5, .iq-maintenance-2 h5 { margin-top: 10px;}
+.iq-maintenance-2 .input-group {width: 100%; margin: 20px 0;}
+.iq-tools-box .iq-tools3{display: none;}
+.iq-footer2 .footer-top .col-lg-3.col-md-6.col-sm-12{margin: 15px 0;}
+.iq-footer2 .footer-top .col-lg-2.col-md-6.col-sm-12{margin: 15px 0;}
+.iq-footer2 .footer-top .col-lg-4.col-md-6.col-sm-12{margin: 15px 0;}
+
+
+
+}
+
+
+
+@media(max-width:979px) { }
+@media(max-width:767px) {
+header.header-1 .container { max-width: 100%; padding: 0 20px; }
+header.header-1 .header-middle .menu-logo { text-align: center;  }
+header.header-1 .header-middle .menu-logo img { width: 150px; }
+header.header-1 .header-middle .iq-emergency .media { float: left; margin-top: 20px; }
+header.header-1 .header-middle .iq-emergency .media .iq-title { font-size: 16px; }
+header.header-1 .header-middle .iq-emergency .media a { font-size: 24px; margin-right: 10px !important; }
+header.header-1 .shop-cart { top: 10px; }
+header.header-1 .container { padding: 0 20px; }
+header.header-2 .header-top .iq-link li:first-child a { display: none; }
+header.header-2 .header-top .shop-cart { top: 23px; }
+.heading-title p { padding: 0 30px; }
+.iq-testimonial .feedback .iq-info { padding: 10px 20px 20px 20px; }
+.iq-tab-services .tab-content .detail-box { margin-top: 30px; }
+.iq-footer2 .iq-contact .blog i { font-size: 30px; }
+.iq-footer2 .iq-contact .blog .title { font-size: 18px; }
+h2 { font-size: 34px; line-height: 50px; }
+.iq-footer3 .iq-contact .blog .title { font-size: 20px; }
+.iq-footer3 .iq-contact .blog i { font-size: 20px; line-height: 50px; width: 50px; height: 50px; }
+.iq-feature2 { padding: 50px 30px; }
+.heading-title p { padding: 0; }
+.iq-coming-1 .iq-subscribe .form-group { width: 100%;}
+.iq-coming-1 .button{margin-top: 20px;}
+.iq-coming-1 .form-group { margin-bottom: 0;}
+.iq-contact2 .contact { padding: 30px 15px;}
+.iq-contact2 .left { margin-right: 0;}
+.iq-contact2 .right span { font-size: 14px;}
+.iq-contact2 .right .iq-mb-10 { margin-bottom: 0;}
+.iq-contact2 .contact-box { margin-bottom: 10px;}
+.iq-error h2 { font-size:24px; line-height: 32px;}
+.iq-error h5 { font-size:18px; line-height: 24px;}
+.iq-maintenance h2, .iq-maintenance-2 h2 {font-size: 40px; line-height:50px;}
+.iq-maintenance h5, .iq-maintenance-2 h5 {font-size: 20px; line-height:24px;}
+.iq-maintenance-2 .input-group input { width: 100%;  margin-bottom: 10px;}
+.iq-maintenance-2 .button { padding: 10px 0; width: 100%; margin-right: 0;}
+.tab-box .nav-tabs .nav-link { padding: 15px 20px;}
+.iq-tools-box .iq-tools3{display: none;}
+}
+@media(max-width:600px) {
+.re-6-mt-30 { margin-top: 30px; }
+}
+@media(max-width:575px) {
+header.header-1 .shop-cart { top: -30px; }
+header.header-2 .header-top .shop-cart { top: 10px; }
+header.header-2 .header-top { padding: 10px 0; }
+header.header-2 .topbar-left.iq-contact { display: none; }
+header.header-2 .header-bottom { margin: 10px 0; }
+header.header-2 .header-bottom .mega-menu.menuFullWidth.desktopTopFixed > section.menu-list-items { padding: 10px 15px; }
+.iq-accordion.accordion-one.light.right-icon .ad-details.dark img{margin-bottom: 20px;}
+.iq-breadcrumb1.text-left .breadcrumb { padding: 15px 20px;}
+.heading-title .title { font-size: 24px; line-height: 32px;}
+.iq-tab-faq .nav-pills .nav-item { width: 40%;}
+.row.port-btn .col-sm-6.text-right{ text-align: left !important; }
+.tab-box .nav-item {width: 100%; text-align: center;}
+}
+@media(max-width:479px) {
+header.header-1 .header-middle .iq-emergency .media .iq-title { font-size: 14px; }
+header.header-1 .container { padding: 0 15px; }
+h3 { font-size: 24px; line-height: 32px; }
+.button { font-size: 14px;}
+.iq-tab-faq .nav-pills .nav-item { width: 100%; margin:0; }
+.iq-maintenance h2, .iq-maintenance-2 h2 {font-size: 32px; line-height:40px;}
+.iq-maintenance, .iq-maintenance-2 h5 {font-size: 18px; line-height:24px;}
+.iq-comments-media{display: table-row-group;}
+.iq-mtb-20.blue-bg.iq-font-white.info-block{display: table-row-group;}
+}
+@media(max-width:359px) { }
